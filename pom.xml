@@ -42,12 +42,8 @@
 				<jdk>[9,)</jdk>
 			</activation>
 			<dependencies>
- 
-    compile "org.springframework:spring-beans:$springVersion"
-    compile "org.springframework:spring-jdbc:$springVersion"
-    compile "org.springframework:spring-web:$springVersion"
 
-    compile "org.springframework.boot:spring-boot-starter-web:1.2.7.RELEASE"
+   
 				<dependency>
 					<groupId>javax.xml.bind</groupId>
 					<artifactId>jaxb-api</artifactId>
