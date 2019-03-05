@@ -8,12 +8,14 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.2.RELEASE</version>
 	</parent>
+
 	<artifactId>spring-boot-sample-web-groovy-templates</artifactId>
 	<name>Spring Boot Web Groovy Templates Sample</name>
 	<description>Spring Boot Web Groovy Templates Sample</description>
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
 	</properties>
+
 	<dependencies>
 		<!-- Compile -->
 		<dependency>
@@ -27,6 +29,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -35,6 +38,7 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	<profiles>
 		<profile>
 			<id>java9+</id>
@@ -43,7 +47,7 @@
 			</activation>
 			<dependencies>
 
-   
+
 				<dependency>
 					<groupId>javax.xml.bind</groupId>
 					<artifactId>jaxb-api</artifactId>
